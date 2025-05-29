@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Place the animated background as the first element in the body -->
+    <div class="animated-background">
+        <!-- Large animated shapes -->
+        <div class="animated-shape circle" style="top: -5%; left: 10%; width: 300px; height: 300px;"></div>
+        <div class="animated-shape square" style="top: 60%; left: 5%; width: 250px; height: 250px;"></div>
+        <div class="animated-shape triangle" style="top: 20%; left: 70%; width: 300px; height: 300px;"></div>
+        <div class="animated-shape circle" style="top: 70%; left: 65%; width: 200px; height: 200px;"></div>
+        <div class="animated-shape square" style="top: 10%; left: 40%; width: 180px; height: 180px;"></div>
+        
+        <!-- Floating particles -->
+        <div class="floating-particle" style="top: 15%; left: 20%;"></div>
+        <div class="floating-particle" style="top: 25%; left: 85%;"></div>
+        <div class="floating-particle" style="top: 45%; left: 15%;"></div>
+        <div class="floating-particle" style="top: 65%; left: 75%;"></div>
+        <div class="floating-particle" style="top: 85%; left: 45%;"></div>
+        <div class="floating-particle" style="top: 35%; left: 55%;"></div>
+        <div class="floating-particle" style="top: 75%; left: 25%;"></div>
+        <div class="floating-particle" style="top: 55%; left: 90%;"></div>
+        
+        <!-- Moving lines -->
+        <div class="moving-line"></div>
+        <div class="moving-line"></div>
+        <div class="moving-line"></div>
+    </div>
+
+    <div class="container">
+        <!-- Netflix-style intro animation -->
+        <div class="netflix-intro">
+            <!-- Netflix-style logo with letter-by-letter animation -->
+            <div class="netflix-logo-container">
+                <!-- Letter-by-letter animation -->
+                <div class="letter-container">
+                    <div class="letter">L</div>
+                    <div class="letter">N</div>
+                    <div class="letter">I</div>
+                </div>
+                
+                <!-- Shine effect -->
+                <div class="shine-effect"></div>
+            </div>
+            
+            <!-- Netflix colored stripes animation - exactly like Netflix -->
+          <div class="netflix-stripes">
+                <div class="stripe"></div>
+                <div class="stripe"></div>
+                <div class="stripe"></div>
+                <div class="stripe"></div>
+            </div>
+            
+            <!-- Netflix sound effect visual representation -->
+            <div class="sound-effect"></div>
+        </div>
+        
+        <!-- Magic Math Background - FULLSCREEN VERSION (outside of slides) -->
+        <div class="magic-math-bg">
+            <!-- Math symbols -->
+            <div class="math-symbol">∫</div>
+            <div class="math-symbol">π</div>
+            <div class="math-symbol">∑</div>
+            <div class="math-symbol">√</div>
+            <div class="math-symbol">∞</div>
+            <div class="math-symbol">θ</div>
+            <div class="math-symbol">Δ</div>
+            <div class="math-symbol">∂</div>
+            <div class="math-symbol">λ</div>
+            <div class="math-symbol">∇</div>
+            <div class="math-symbol">∝</div>
+            <div class="math-symbol">∈</div>
+            
+            <!-- Magic particles -->
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            <div class="magic-particle"></div>
+            
+            <!-- Math formulas -->
+            <div class="math-formula">E = mc²</div>
+            <div class="math-formula">F = G(m₁m₂)/r²</div>
+            <div class="math-formula">∮ E·dl = -∂ΦB/∂t</div>
+            <div class="math-formula">eiπ + 1 = 0</div>
+            
+            <!-- Geometric shapes -->
+            <div class="geometric-shape"></div>
+            <div class="geometric-shape"></div>
+            <div class="geometric-shape"></div>
+        </div>
+        
+        <!-- Background overlay -->
+        <div class="magic-bg-overlay"></div>
+        
+        <!-- Modern Presentation content that appears after the intro -->
+        <div class="presentation">
+            <div class="presentation-header">
+                <h1>Magie</h1>
+            </div>
+            
+            <div class="presentation-nav">
+                <button class="nav-button active" data-slide="slide1">Introducere</button>
+                <button class="nav-button" data-slide="slide2">Geogebra</button>
+                <button class="nav-button" data-slide="slide3">Genially</button>
+                <button class="nav-button" data-slide="slide4">Classtools</button>
+                <button class="nav-button" data-slide="slide5">Resurse realizate de elevi</button>
+            </div>
+            
+            <div class="slides-container">
+                <div id="slide1" class="slide active">
+                    <video class="slide-bg-video" autoplay muted loop playsinline>
+                        <source src="videos/slide1-bg.mp4" type="video/mp4">
+                    </video>
+                    <!-- Animated background elements -->
+                    <div class="intro-animated-element intro-circle" style="top: 15%; left: 10%;"></div>
+                    <div class="intro-animated-element intro-square" style="top: 70%; left: 15%; animation-delay: 2s;"></div>
+                    <div class="intro-animated-element intro-triangle" style="top: 30%; left: 80%; animation-delay: 4s;"></div>
+                    <div class="intro-animated-element intro-circle" style="top: 65%; left: 75%; animation-delay: 1s; width: 100px; height: 100px;"></div>
+                    <div class="intro-animated-element intro-square" style="top: 20%; left: 60%; animation-delay: 3s; width: 70px; height: 70px;"></div>
+                    <h2 class="slide-title">Introducere</h2>
+                    <div class="slide-content">
+                        <div class="content-box">
+                            <h3>Descoperă magia învățării – Portalul tău către educație fermecată</h3>
+                            <p>Bine ați venit într-un spațiu unde educația se întâlnește cu imaginația! Acest site este poarta către o lume fascinantă de platforme educaționale care transformă procesul de învățare într-o adevărată aventură magică. Fie că ești elev, profesor sau părinte, aici vei găsi resurse interactive, lecții captivante și instrumente digitale care îmbină cunoașterea cu misterul și fantezia.
+
+Explorează site-uri care aduc învățătura la viață prin vrăji vizuale, provocări magice și experiențe imersive, menite să aprindă curiozitatea și dorința de a descoperi. Educația nu a fost niciodată mai fermecătoare!</p>
+                        </div>
+                        
+                    </div> 
+                    <div class="slide-footer">
+                        <p>Slide 1 of 5</p>
+                    </div>
+                </div>
+                
+                <div id="slide2" class="slide">
+                    <video class="slide-bg-video" autoplay muted loop playsinline>
+                        <source src="background.mp4" type="video/mp4">
+                    </video>
+                    <h2 class="slide-title">Geogebra</h2>
+                    <div class="slide-content">
+                        <div class="content-box">
+                            <h3>Descriere</h3>
+                            <p>GeoGebra nu este doar un instrument de predare a matematicii –desenele create pot deveni piese de artă, totul depinde de imaginația noastră. Cu ajutorul acestui program gratuit și interactiv, putem transforma concepte abstracte în imagini geometrice spectaculoase.
+Putem crea modele simetrice inspirate de mandale, mozaicuri islamice, fractali, desene parametrice animate. Uneltele pe care le folosim sunt compasul digital pentru flori geometrice, reflexia, rotația și translația pentru simetrii și repetiții artistice
+De ce să utilizăm GeoGebra pentru artă? 
+Este gratuit și ușor de folosit chiar și pentru începători, îmbină matematica cu creativitatea, putem exporta imaginile în format SVG sau PNG.
+</p>
+                        </div>
+                       
+                    </div>
+                    <div class="slide-images">
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/x748twwq" target="blank">
+                            <img src="poza geogebra 1.png"  height="300px" width="300px" alt="Geogebra Example 1">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/etcgsef9" target="blamk">
+                            <img src="poza geogebra 2.png" height="300px" width="300px"  alt="Geogebra Example 2">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/n3nenwnj" target="_blank">
+                            <img src="poza geogebra 3.png" height="300px" width="300px" alt="Geogebra Example 3">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/vygabk89" target="blamk">
+                            <img src="poza geogebra 4.png" height="300px" width="300px" alt="Geogebra Example 4">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/ew6fgyef" target="blamk">
+                            <img src="poza geogebra 5.png" height="300px" width="300px" alt="Geogebra Example 5">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/cwcddtut" target="blamk">
+                            <img src="poza geogebra 6.png" height="300px" width="300px" alt="Geogebra Example 6">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/ev8nq9wg" target="blamk">
+                            <img src="poza geogebra 7.png" height="300px" width="300px" alt="Geogebra Example 7">
+                            </a>
+                        </div>    
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/g5ub89vx" target="blank">
+                            <img src="poza geogebra 8.png" height="300px" width="300px" alt="Geogebra Example 8">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.geogebra.org/m/ansufgjt" treget="blank">
+                                <img src="poza geogebra 9.png" height="300px" width="300px" alt="Geogebra example 9">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-footer">
+                        <p>Slide 2 of 5</p>
+                    </div>
+                </div>
+                
+                <div id="slide3" class="slide">
+                    <!-- Replace the video with animated background -->
+                    <div class="genially-animated-bg">
+                        <!-- Artistic elements -->
+                        <div class="art-element circle-art"></div>
+                        <div class="art-element square-art"></div>
+                        <div class="art-element triangle-art"></div>
+                        <div class="art-element wave-art"></div>
+                        <div class="art-element spiral-art"></div>
+                        
+                        <!-- Floating artistic particles -->
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        <div class="art-particle"></div>
+                        
+                        <!-- Animated brush strokes -->
+                        <div class="brush-stroke"></div>
+                        <div class="brush-stroke"></div>
+                        <div class="brush-stroke"></div>
+                        
+                        <!-- Color palette elements -->
+                        <div class="color-splash" style="background-color: rgba(255, 105, 180, 0.4);"></div>
+                        <div class="color-splash" style="background-color: rgba(65, 105, 225, 0.4);"></div>
+                        <div class="color-splash" style="background-color: rgba(50, 205, 50, 0.4);"></div>
+                    </div>
+                    
+                    <h2 class="slide-title">Genially</h2>
+                    <div class="slide-content">
+                        <div class="content-box">
+                            <h3>Prezentări Fermecate</h3>
+                            <p>Genially: magia care transformă lecțiile în aventuri
+Un webinar despre Genially este necesar din mai multe motive, mai ales pentru cadrele didactice sau creatorii de conținut educațional care vor să iasă din tiparele clasice. Iată câteva motive clare și convingătoare:
+Genially sprijină învățarea activă și participativă prin quizuri, escape rooms, hărți interactive.
+Interfața e intuitivă, iar template-urile sunt gata de folosit. O să vă prezint exemple, șabloane ușor de adaptatat.
+</p>
+                        </div>
+                       
+                    </div>
+                    <div class="slide-images">
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/682217cd20b3d70fc6288c3e/interactive-content-dubluri-aplicatii" target="blank">
+                                <img src="poza genially 1.png" height="300px" width="300px" alt="Genially Example 1">
+                            </a>
+                        </div>
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/681f33e58ac4858fb6e33050" target="blank">
+                                <img src="poza genially 2.png" height="300px" width="300px" alt="Genially Example 2">
+                            </a>
+                        </div>
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/5fa7ff06a99c440cf98c6690/guide-rapoarte-imbinare-activitati" target="blank">
+                                <img src="poza genially 3.png" height="300px" width="300px" alt="Genially Example 3">
+                            </a>
+                        </div>
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/5f4d33e6e8b4e60d6ab32aa2/learning-experience-challenges-proiectarea-unitatii-de-invatare" target="blank">
+                                <img src="poza genially 5.png" height="300px" width="300px" alt="Genially Example 4">
+                            </a>
+                        </div>
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/629f553bd254e90018776450/interactive-content-quiz-puzzle-matematica-en" target="blank">
+                                <img src="poza genially 6.png" height="300px" width="300px" alt="Genially Example 5">
+                            </a>
+                        </div>
+                        <div class="image-continer">
+                            <a href="https://view.genially.com/5f7a0487ff5a000cf0bdce84/learning-experience-challenges-opertii-cu-numere-naturale" target="blank">
+                                <img src="poza genially 4.png" height="300px" width="300px" alt="Genially Example 6">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-footer">
+                        <p>Slide 3 of 5</p>
+                    </div>
+                </div>
+                
+                <div id="slide4" class="slide">
+                    <!-- Replace the video with animated background -->
+                    <div class="classtools-animated-bg">
+                        <!-- Educational/game elements -->
+                        <div class="tool-element game-controller"></div>
+                        <div class="tool-element puzzle-piece"></div>
+                        <div class="tool-element quiz-icon"></div>
+                        <div class="tool-element timer-icon"></div>
+                        <div class="tool-element board-icon"></div>
+                        
+                        <!-- Floating educational symbols -->
+                        <div class="edu-symbol">A</div>
+                        <div class="edu-symbol">B</div>
+                        <div class="edu-symbol">C</div>
+                        <div class="edu-symbol">1</div>
+                        <div class="edu-symbol">2</div>
+                        <div class="edu-symbol">3</div>
+                        <div class="edu-symbol">?</div>
+                        <div class="edu-symbol">!</div>
+                        
+                        <!-- Interactive elements -->
+                        <div class="interactive-element"></div>
+                        <div class="interactive-element"></div>
+                        <div class="interactive-element"></div>
+                        
+                        <!-- Digital connections -->
+                        <div class="digital-connection"></div>
+                        <div class="digital-connection"></div>
+                        <div class="digital-connection"></div>
+                        
+                        <!-- Color themes -->
+                        <div class="color-theme" style="background-color: rgba(75, 0, 130, 0.3);"></div>
+                        <div class="color-theme" style="background-color: rgba(0, 128, 128, 0.3);"></div>
+                        <div class="color-theme" style="background-color: rgba(255, 140, 0, 0.3);"></div>
+                    </div>
+                    
+                    <h2 class="slide-title">Classtools</h2>
+                    <div class="slide-content">
+                        <div class="content-box">
+                            <h3> Detectivi digitali pe Classtools</h3>
+                            <p>Classtools este un site foarte popular printre profesori pentru că oferă instrumente gratuite, simple și interactive cu ajutorul cărora putem crea activități educaționale distractive și captivante. 
+Este o platformă online care permite profesorilor să creeze rapid jocuri, chestionare și activități interactive fără să fie nevoie de cont sau instalări.
+Classtools oferă o varietate de aplicații utile, printre care:
+•	Fakebook – Simulare de profil Facebook pentru personaje istorice, literare etc.
+•	Connect four
+•	Venn Diagram – Diagrame Venn personalizabile pentru lecții interactive.
+Classtools este ușor de utilizat, funcționează direct în browser și stimulează implicarea elevilor.  Elevii, ca și noi adulții, preferăm să învățăm prin joc.
+Webinarul devine un spațiu de inspirație și colaborare – înveți de la alți colegi pasionați.</p>
+                        </div>
+                    </div>
+                    <div class="slide-images">
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/wordshooter/202505_2e5f7Y" target="blamk">
+                                <img src="poza classtools 1.png" height="300px" width="300px" alt="Classtools Example 1">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/hotspot/202505-jbiTQh" target="blank">
+                                <img src="poza classtools 2.png" height="300px" width="300px" alt="Classtools Example 2">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/hotspot/202504-EAjWhU" target="blank">
+                                <img src="poza classtools 3.png" height="300px" width="300px" alt="Classtools Example 3">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/vortex/202504-Z6haQV" target="blank">
+                                <img src="poza classtools 4.png" height="300px" width="300px" alt="Classtools Example 4">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/wordshooter/202504_maJHYd" target="blank">
+                                <img src="poza classtools 5.png" height="300px" width="300px" alt="Classtools Example 5">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/cloze/202505-NCA7EN" target="blank">
+                                <img src="poza classtools 6.png" height="300px" width="300px" alt="Classtools Example 6">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-footer">
+                        <p>Slide 4 of 5</p>
+                    </div>
+                </div>
+                
+                <div id="slide5" class="slide">
+                    <!-- Student resources animated background -->
+                    <div class="student-resources-animated-bg">
+                        <!-- Creative elements representing student work -->
+                        <div class="student-element creativity-icon"></div>
+                        <div class="student-element lightbulb-icon"></div>
+                        <div class="student-element star-icon"></div>
+                        <div class="student-element book-icon"></div>
+                        <div class="student-element pencil-icon"></div>
+                        
+                        <!-- Floating academic symbols -->
+                        <div class="academic-symbol">★</div>
+                        <div class="academic-symbol">✓</div>
+                        <div class="academic-symbol">♦</div>
+                        <div class="academic-symbol">●</div>
+                        <div class="academic-symbol">▲</div>
+                        <div class="academic-symbol">■</div>
+                        <div class="academic-symbol">♠</div>
+                        <div class="academic-symbol">♥</div>
+                        
+                        <!-- Creative particles -->
+                        <div class="creative-particle"></div>
+                        <div class="creative-particle"></div>
+                        <div class="creative-particle"></div>
+                        <div class="creative-particle"></div>
+                        <div class="creative-particle"></div>
+                        
+                        <!-- Student achievement elements -->
+                        <div class="achievement-element"></div>
+                        <div class="achievement-element"></div>
+                        <div class="achievement-element"></div>
+                        
+                        <!-- Color themes for student work -->
+                        <div class="student-color-theme" style="background-color: rgba(255, 215, 0, 0.3);"></div>
+                        <div class="student-color-theme" style="background-color: rgba(138, 43, 226, 0.3);"></div>
+                        <div class="student-color-theme" style="background-color: rgba(0, 191, 255, 0.3);"></div>
+                    </div>
+                    
+                    <h2 class="slide-title">Resurse realizate de elevi</h2>
+                    <div class="slide-content">
+                        <div class="content-box">
+                            <h3>Creativitatea elevilor în acțiune</h3>
+                            <p>Această secțiune prezintă lucrările remarcabile create de elevii noștri folosind platformele educaționale prezentate anterior. Aici puteți admira creativitatea, dedicarea și talentul tinerilor noștri în realizarea de proiecte interactive, prezentări captivante și activități educaționale inovatoare. Fiecare lucrare demonstrează cum tehnologia poate fi folosită pentru a transforma învățarea într-o experiență memorabilă și plină de satisfacții.</p>
+                        </div>
+                    </div>
+                    <div class="slide-images">
+                        <div class="image-container">
+                            <a href="https://view.genially.com/6835e4cd1fbf7ab2184810a0/interactive-content-poveste" target="_blank">
+                                <img src="poza bogdi.png" height="300px" width="300px" alt="Student Resource 1">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://www.classtools.net/vortex/202505-8DV84B" target="_blank">
+                                <img src="proiect 2.png" height="300px" width="300px" alt="Student Resource 2">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://view.genially.com/683344d1ee1b621ab5d55c3d/interactive-content-mintile-infinite" target="_blank">
+                                <img src="proiect3.png" height="300px" width="300px" alt="Student Resource 3">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://view.genially.com/683741ec32de6ad1bd97df3e/interactive-content-i" target="_blank">
+                                <img src="image.png" height="300px" width="300px" alt="Student Resource 4">
+                            </a>
+                        </div>
+                        <div class="image-container">
+                            <a href="https://view.genially.com/6837fcb3862af3f0e90bcaa7/interactive-content-escape-room-prizonier-in-cetatea-matematicii" target="_blank">
+                                <img src="poza deiu.png" height="300px" width="300px" alt="Student Resource 5">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-footer">
+                        <p>Slide 5 of 5</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+   <script src="script.js"></script>
+</body>
+</html>
